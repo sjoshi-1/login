@@ -12,7 +12,7 @@
 <!--isset function is set here if there is any error occur in the functioning it will show error message and if everything seems okay it will show success message
 isset is used so that there must be something declared or shown to make it user friendly
 -->
-
+<!--_get used to request data from user-->
           <?php if (isset($_GET['error'])) { ?>
      		<p class="error"><?php echo $_GET['error']; ?></p>
      	<?php } ?>

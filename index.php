@@ -12,8 +12,10 @@
 
 </head>
 <body>
+    <!--form gets validated using login.php-->
 <form action="login.php" method="post">
 <h2>LOGIN</h2>
+<!--any kind of error will be displayed here-->
      	<?php if (isset($_GET['error'])) { ?>
      		<p class="error"><?php echo $_GET['error']; ?></p>
      	<?php } ?>

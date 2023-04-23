@@ -1,6 +1,7 @@
 <?php 
 session_start();
 
+//check whether variable is empty or set
 if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 
  ?>
